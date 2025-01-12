@@ -1,0 +1,249 @@
+https://github.com/iricamiletti/Aventura-literaria-.git
+https://github.com/iricamiletti/Aventura-literaria-.git
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De Vida de un Alma Perdida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #222;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .chapter-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .chapter-list li {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .comments, .updates {
+            margin-top: 20px;
+        }
+        .comments input[type="text"], .comments textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .comments button {
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .comments button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>De Vida de un Alma Perdida</h1>
+        <p>Bienvenidos a la página oficial de mi libro</p>
+    </header>
+    
+    <nav>
+        <a href="#chapters">Capítulos</a>
+        <a href="#comments">Comentarios</a>
+        <a href="#updates">Avances</a>
+    </nav>
+
+    <div class="container" id="chapters">
+        <h2>Capítulos</h2>
+        <ul class="chapter-list">
+            <li><a href="#">Capítulo 1: Introducción al caos</a></li>
+            <li><a href="#">Capítulo 2: Entre sombras y luces</a></li>
+            <li><a href="#">Capítulo 3: La búsqueda del alma perdida</a></li>
+            <!-- Agrega más capítulos aquí -->
+        </ul>
+    </div>
+
+    <div class="container comments" id="comments">
+        <h2>Comentarios</h2>
+        <p>Déjame tus preguntas o comentarios sobre el libro. ¡Me encantaría saber tu opinión!</p>
+        <form action="#">
+            <input type="text" name="name" placeholder="Tu nombre" required><br><br>
+            <textarea name="comment" rows="4" placeholder="Escribe tu comentario..." required></textarea><br><br>
+            <button type="submit">Enviar comentario</button>
+        </form>
+    </div>
+
+    <div class="container updates" id="updates">
+        <h2>Avances</h2>
+        <p>Aquí encontrarás los avances del próximo capítulo y detalles exclusivos sobre la trama.</p>
+        <p><strong>Próximo avance:</strong> Capítulo 4: El despertar de la verdad.</p>
+        <p>Estén atentos, porque se revelarán secretos muy pronto...</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 De Vida de un Alma Perdida. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html><!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De Vida de un Alma Perdida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #222;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .chapter-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .chapter-list li {
+            background-color: #f0f0f0;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            background-color: #222;
+            color: white;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .comments, .updates {
+            margin-top: 20px;
+        }
+        .comments input[type="text"], .comments textarea {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .comments button {
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .comments button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>De Vida de un Alma Perdida</h1>
+        <p>Bienvenidos a la página oficial de mi libro</p>
+    </header>
+    
+    <nav>
+        <a href="#chapters">Capítulos</a>
+        <a href="#comments">Comentarios</a>
+        <a href="#updates">Avances</a>
+    </nav>
+
+    <div class="container" id="chapters">
+        <h2>Capítulos</h2>
+        <ul class="chapter-list">
+            <li><a href="#">Capítulo 1: Introducción al caos</a></li>
+            <li><a href="#">Capítulo 2: Entre sombras y luces</a></li>
+            <li><a href="#">Capítulo 3: La búsqueda del alma perdida</a></li>
+            <!-- Agrega más capítulos aquí -->
+        </ul>
+    </div>
+
+    <div class="container comments" id="comments">
+        <h2>Comentarios</h2>
+        <p>Déjame tus preguntas o comentarios sobre el libro. ¡Me encantaría saber tu opinión!</p>
+        <form action="#">
+            <input type="text" name="name" placeholder="Tu nombre" required><br><br>
+            <textarea name="comment" rows="4" placeholder="Escribe tu comentario..." required></textarea><br><br>
+            <button type="submit">Enviar comentario</button>
+        </form>
+    </div>
+
+    <div class="container updates" id="updates">
+        <h2>Avances</h2>
+        <p>Aquí encontrarás los avances del próximo capítulo y detalles exclusivos sobre la trama.</p>
+        <p><strong>Próximo avance:</strong> Capítulo 4: El despertar de la verdad.</p>
+        <p>Estén atentos, porque se revelarán secretos muy pronto...</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 De Vida de un Alma Perdida. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
